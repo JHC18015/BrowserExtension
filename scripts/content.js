@@ -1,3 +1,14 @@
-console.warn("Jimmy sucks toes");
-console.log("Jimmy really does suck toes")
 alert("Jimmy has commenced the toe sucking!")
+
+function img_find() {
+    var imgs = document.getElementsByTagName("img");
+    var imgSrcs = [];
+    
+    for (var i = 0; i < imgs.length; i++) {
+        imgSrcs.push(imgs[i].src);
+    }
+
+    return imgSrcs;
+}
+
+console.warn(img_find())
