@@ -1,4 +1,4 @@
-function() replaceImage{
+function replaceImage() {
     console.log("The extension is working!")
     
     var imgs = document.getElementsByTagName("img");
