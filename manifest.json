@@ -3,6 +3,12 @@
   "name": "Magic Image Tool",
   "description": "Base Level Extension",
   "version": "1.0",
+  "permissions": [
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
   "web_accessible_resources": [{ 
     "resources": ["sexybeast.JPG"],
     "matches": ["https://*/*"]
