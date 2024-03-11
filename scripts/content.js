@@ -1,14 +1,8 @@
 alert("Jimmy has commenced the toe sucking!")
 
-function img_find() {
-    var imgs = document.getElementsByTagName("img");
-    var imgSrcs = [];
+var imgs = document.getElementsByTagName("img");
+var imgSrcs = [];
     
-    for (var i = 0; i < imgs.length; i++) {
-        imgSrcs.push(imgs[i].src);
-    }
-
-    return imgSrcs;
+for (var i = 0; i < imgs.length; i++) {
+    imgs[i].src = "../sexybeast.jpg"
 }
-
-console.warn(img_find())
