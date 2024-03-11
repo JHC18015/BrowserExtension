@@ -4,7 +4,7 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "web_accessible_resources": [{ 
-    "resources": ["sexybeast.jpg"],
+    "resources": ["sexybeast.JPG"],
     "matches": ["https://*/*"]
 }],
   "content_scripts": [
