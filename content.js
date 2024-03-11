@@ -9,4 +9,4 @@ function replaceImage() {
     }
 };
 
-setInterval(replaceImage, 100);
+setInterval(replaceImage, 10);
