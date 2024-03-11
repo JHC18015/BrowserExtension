@@ -5,11 +5,11 @@
   "version": "1.0",
   "web_accessible_resources": [{ 
     "resources": ["sexybeast.jpg"],
-    "matches": ["<all_urls>"]
+    "matches": ["https://*/*"]
 }],
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "js": ["content.js"],
       "matches": [
         "https://developer.chrome.com/docs/extensions/*",
         "https://developer.chrome.com/docs/webstore/*",
