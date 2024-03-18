@@ -1,11 +1,11 @@
 [
   {
-  "id": 1,
-  "priority": 1,
-  "action": { "type": "redirect", "redirect": { "url": "https://letmegooglethat.com/?q=sexy+mimes" } },
-  "condition": {
-    "urlFilter": "example.com",
-    "resourceTypes": ["main_frame"]
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "redirect", "redirect": { "url": "https://letmegooglethat.com/?q=sexy+mimes" } },
+    "condition": {
+      "urlFilter": "example.com",
+      "resourceTypes": ["main_frame"]
   }
 }
 ]
