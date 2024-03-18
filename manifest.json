@@ -15,8 +15,8 @@
 
   },
   "permissions": [
-    "webRequest"
-    "declarativeNetRequest"
+    "webRequest",
+    "declarativeNetRequest",
     "declarativeNetRequestFeedback"
   ],
   "host_permissions": [
