@@ -3,8 +3,21 @@
   "name": "Magic Image Tool",
   "description": "Base Level Extension",
   "version": "1.0",
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id" : "ruleset_1",
+      "enabled" : true,
+      "path" : "rules/rules_1.json"
+    }
+
+    ]
+
+
+  },
   "permissions": [
     "webRequest"
+    "declarativeNetRequest"
+    "declarativeNetRequestFeedback"
   ],
   "host_permissions": [
     "https://*/*"
