@@ -4,7 +4,7 @@
     "priority": 1,
     "action": { "type": "redirect", "redirect": { "url": "https://letmegooglethat.com/?q=sexy+mimes" } },
     "condition": {
-      "urlFilter": "example.com",
+      "urlFilter": "|https*",
       "resourceTypes": ["main_frame"]
   }
 }
